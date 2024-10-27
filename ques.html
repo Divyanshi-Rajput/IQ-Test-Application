@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IQ Test</title>
+  <link rel="stylesheet" href="style2.css">
+  <script type="module" src="quiz.js"></script>
+</head>
+<body>
+  <div id="quiz-container">
+    <h2 id="question-number">Question: 1</h2> 
+    <h2 id="question"></h2>  
+    <img id="question-image" src="" alt="Question Image" style="display: none; max-width: 300px;"> 
+    <div id="timer">Time Elapsed: 00:00</div>
+    <ol id="options"></ol> 
+    <button id="submit-btn">Submit</button>
+  </div>
+
+  <div id="result-container" style="display:none;">
+    <h2>Your score is <span id="score"></span></h2>
+  </div>
+
+  <script type="module" src="quiz.js"></script> 
+</body>
+</html>
