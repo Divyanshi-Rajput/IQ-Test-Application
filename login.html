@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js"></script> 
+</head>
+<body class="body">
+    <center>
+        <div class="main">
+            <h3>Enter your login credentials</h3>
+            <form onsubmit="displayMessage(event)" action="connect.php" method="post"> 
+                <label for="username">
+                    Username:
+                </label>
+                <input type="text" 
+                       id="username" 
+                       name="username" 
+                       placeholder="Enter your Username" required>
+
+                <label for="age">
+                    Age:
+                </label>
+                <input type="text" 
+                       id="age" 
+                       name="age" 
+                       placeholder="Enter your Age" required>
+
+                <label for="password">
+                    Password:
+                </label>
+                <input type="password"
+                       id="password" 
+                       name="password"
+                       placeholder="Enter your Password" required>
+
+                <div class="wrap">
+                    <button type="submit">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </center>
+</body>
+</html>

@@ -1,0 +1,111 @@
+/* Fullscreen background image */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/7.jpg') no-repeat center center/cover; /* Background image */
+    position: relative;
+}
+
+/* Hollow center effect container */
+#quiz-container {
+    width: 98%; 
+    height: 85%;  
+    background-color: white; 
+    clip-path: circle(50% at center); 
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+/* Question text */
+#question {
+    font-size: 28px;  /* Slightly increased font size */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+#question-number {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }  
+
+/* Option list styles */
+#options {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center-align the options */
+    gap: 30px;  /* Increased gap between options */
+    font-size: 19px;
+}
+
+/* Individual options */
+#options li {
+    background-color: #f4f4f4; 
+    border: 1px solid #ddd; 
+    padding: 15px 25px;  /* Increased padding for better alignment */
+    border-radius: 5px; 
+    cursor: pointer; 
+    flex: 1; 
+    text-align: center;
+}
+
+#options li:hover {
+    background-color: #e0e0e0; 
+}
+
+/* Submit button */
+#submit-btn {
+    background-color: #184e91;
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#submit-btn:hover {
+    background-color: #0f1b71; 
+}
+
+/* Result container */
+#result-container h2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #555; 
+}
+
+/* Score styling */
+#result-container #score {
+    font-weight: bold;
+}
+
+#timer {
+    font-size: 18px;
+    color: #070606;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto 20px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }  
