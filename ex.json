@@ -1,0 +1,38 @@
+{
+    "questions": [
+      {
+        "question": "Which cube cannot be made based on the unfolded cube?",  
+        "questionImage": "images/s1q.png",     
+        "options": [
+          { "imgSrc": "images/s1a1.png", "value": "a" },
+          { "imgSrc": "images/s1a2.png", "value": "b" },
+          { "imgSrc": "images/s1a3.png", "value": "c" },
+          { "imgSrc": "images/s1a4.png", "value": "d" }
+        ],
+        "answer": "b"
+      },
+      {
+        "question": "Which of the figures would continue the series below?",
+        "questionImage": "images/s2q.png",  
+        "options": [
+          { "imgSrc": "images/s2a1.png", "value": "a" },
+          { "imgSrc": "images/s2a2.png", "value": "b" },
+          { "imgSrc": "images/s2a3.png", "value": "c" },
+          { "imgSrc": "images/s2a4.png", "value": "d" }
+        ],
+        "answer": "a"
+      },
+      {
+        "question": "When put together properly, the top three puzzle pieces will create one of the following shapes (A-E). Note that a side marked X has to touch X and a side marked Y has to touch Y.",
+        "questionImage": "images/s3q.png",  
+        "options": [
+          { "imgSrc": "images/s3a1.png", "value": "a" },
+          { "imgSrc": "images/s3a2.png", "value": "b" },
+          { "imgSrc": "images/s3a3.png", "value": "c" },
+          { "imgSrc": "images/s3a4.png", "value": "d" }
+        ],
+        "answer": "a"
+      }
+    ]
+  }
+  
